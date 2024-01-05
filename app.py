@@ -46,7 +46,7 @@ def ask_question():
     if question:
         chat_history = request.json.get('chat_history', [])
 
-        # Configure OpenAI API
+
         openai.api_type = 'azure'
         openai.api_base = OPENAI_DEPLOYMENT_ENDPOINT
         openai.api_key = OPENAI_API_KEY
