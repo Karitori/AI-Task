@@ -1,7 +1,8 @@
 # AI-Task
 
 ## Notes:
-Change the paths of the directory in the create_embeddings endpoint and streamlit upload files to save and consume the files correctly.
+1. Change the paths of the directory in the create_embeddings endpoint and streamlit upload files to save and consume the files correctly
+2. Adding `.env` file
 
 ## How to run:
 1. Install the required packages: by using `pip install streamlit flask langchain openai os`
